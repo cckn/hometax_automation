@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "nodemon.json": true,
+    "package-lock.json": true,
+    "tslint.json": true,
+    "tsconfig.json": true,
+    "prettier.config.js": true,
+    ".vscode": true
+  }
+}
