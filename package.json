@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start": "ts-node ./src/index.ts",
+    "nodemon": "nodemon"
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",
@@ -18,5 +19,10 @@
     "typescript": "^3.8.3"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.9",
+    "iohook": "^0.6.6",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
 }
